@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tencent.mapsdkdemo.raster"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name" >
+        <meta-data
+          android:name="TencentMapSDK"
+          android:value="3LTBZ-C3DHW-E5XRV-ORBKN-5LZS5-JOFMX"/>
+        <activity
+           android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".MainActivity"/>
+        <activity
+            android:name=".TencentMapDemo"/>
+         <activity
+            android:name=".ItemizedOverlayDemo"/>
+           <activity
+            android:name=".PoiSearchDemo"/>
+            <activity
+            android:name=".RouteSearchDemo"/>
+            <activity
+            android:name=".GeoCoderDemo"/>
+            <activity
+            android:name=".OverlayDemo"/>
+             <activity
+            android:name=".LocationMe"/>
+             
+       </application>
+        
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    
+    <uses-sdk android:minSdkVersion="4"/>
+
+</manifest>
