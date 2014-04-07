@@ -21,20 +21,25 @@ public final class R {
     }
     public static final class id {
         public static final int add=0x7f06000b;
-        public static final int btnAnimationTo=0x7f06000a;
+        public static final int btnAnimationTo=0x7f060010;
+        public static final int btnAnimationTo1=0x7f06000a;
         public static final int btnGeocoder=0x7f060001;
-        public static final int btnPoiSearch=0x7f060010;
+        public static final int btnPoiSearch=0x7f060014;
         public static final int btnRegeocoder=0x7f060003;
-        public static final int btnRouteSearch=0x7f060012;
-        public static final int btnSatellite=0x7f060009;
-        public static final int btnTraffic=0x7f060008;
+        public static final int btnRouteSearch=0x7f060016;
+        public static final int btnSatellite=0x7f06000f;
+        public static final int btnSatellite1=0x7f060009;
+        public static final int btnTraffic=0x7f06000e;
+        public static final int btnTraffic1=0x7f060008;
         public static final int itemizedoverlayview=0x7f060005;
-        public static final int mapviewOverlay=0x7f06000e;
-        public static final int mapviewpoisearch=0x7f060011;
-        public static final int mapviewroutesearch=0x7f060013;
-        public static final int mapviewtraffic=0x7f06000d;
+        public static final int maptest=0x7f06000d;
+        public static final int mapviewOverlay=0x7f060012;
+        public static final int mapviewpoisearch=0x7f060015;
+        public static final int mapviewroutesearch=0x7f060017;
+        public static final int mapviewtraffic=0x7f060011;
         public static final int remove=0x7f06000c;
-        public static final int txtKeyword=0x7f06000f;
+        public static final int streetwebView=0x7f060018;
+        public static final int txtKeyword=0x7f060013;
         public static final int txtViewSelectSub=0x7f060007;
         public static final int txtViewSelectTile=0x7f060006;
         public static final int txtgeocoder=0x7f060000;
@@ -52,6 +57,7 @@ public final class R {
         public static final int poisearchdemo=0x7f030007;
         public static final int routesearchdemo=0x7f030008;
         public static final int splash=0x7f030009;
+        public static final int streedview=0x7f03000a;
     }
     public static final class string {
         public static final int about=0x7f050002;

@@ -10,19 +10,19 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
         <Button
-            android:id="@+id/btnTraffic"
+            android:id="@+id/btnTraffic1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="实时交通" >
         </Button>
          <Button
-            android:id="@+id/btnSatellite"
+            android:id="@+id/btnSatellite1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="卫星影像" >
         </Button>
          <Button
-            android:id="@+id/btnAnimationTo"
+            android:id="@+id/btnAnimationTo1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Animation" >
@@ -31,17 +31,17 @@
             android:id="@+id/add"
             android:layout_width="38dp"
 			android:layout_height="wrap_content"
-			android:text="start" >
+			android:text="开始" >
 		</Button>
 		<Button
 			android:id="@+id/remove"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
-			android:text="end" >
+			android:text="结束" >
 		</Button>
     </LinearLayout>
     <com.tencent.tencentmap.mapsdk.map.MapView
-        android:id="@+id/mapviewtraffic"
+        android:id="@+id/maptest"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />
 

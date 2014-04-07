@@ -7,5 +7,7 @@
 <item>RouteSearchDemo</item>
 <item>GeoCoderDemo</item>
 <item>OverlayDemo</item>
+<item>LocationMe</item>
+<item>StreetView</item>
 </string-array>
 </resources> 
